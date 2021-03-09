@@ -8,7 +8,7 @@ import five from '../assets/images/5.png';
 
 function SectionThree() {
   return (
-    <Container className="mt-5">
+    <Container className="mt-5 mb-5" style={{height: 700}}>
       <Row className="text-center">
         <Col>
           <h2 className="s-h">How We Build The Apps?</h2>
@@ -17,8 +17,8 @@ function SectionThree() {
       <Row className="text-center mt-4">
         <Col md="3">
           <img src={one} />
-          <div className="lh-m">
-            <p className="s-t mt-3 lh-p"><b>Requirement Gathering <br/> / Analysis</b></p>
+          <div className="lh-1">
+            <p className="s-t mt-3 "><b>Requirement Gathering <br/> / Analysis</b></p>
             <small>Requirement Gathering <br/> / Analysis</small>
           </div>
         </Col>
