@@ -5,6 +5,8 @@ import two from '../assets/images/2.png';
 import three from '../assets/images/3.png';
 import four from '../assets/images/4.png';
 import five from '../assets/images/5.png';
+import black from '../assets/images/black.png';
+import yellow from '../assets/images/yellow.png';
 
 function SectionThree() {
   return (
@@ -14,7 +16,7 @@ function SectionThree() {
           <h2 className="s-h">How We Build The Apps?</h2>
         </Col>
       </Row>
-      <Row className="text-center mt-4 m-0 justify-content-center sec-3">
+      <Row className="text-center mt-4 m-0 justify-content-center sec-3-con">
         <Col md="2">
           <Row className="align-items-end sec-3">
             <Col md="12">
@@ -26,6 +28,9 @@ function SectionThree() {
             </Col>
           </Row>
         </Col>
+        <div className="connectors">
+          <img src={yellow}/>
+        </div>
         <Col md="2">
           <img src={two} />
           <div className="lh-1">

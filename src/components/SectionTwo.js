@@ -12,7 +12,7 @@ function SectionTwo() {
         <Col>
           <h2 className="s-h">What We Do</h2>
           <div className="s-d">
-            <p className="s-p mt-3">We eat, sleep and breathe. It's who we are. We create the kind of apps that people love & are used over & over again.</p>
+            <p className="s-p mt-3">We eat, sleep and breathe. It's who we are. We create the kind <br/> of apps that people love & are used over & over again.</p>
           </div>
         </Col>
       </Row>
