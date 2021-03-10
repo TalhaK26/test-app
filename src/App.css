@@ -2,19 +2,25 @@
 .banner-sec { 
   background-image: url('assets/images/banner.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: right;  */
+  /* background-size: cover; */
+  background-position: right;
   /* width: 100vw; */
   /* height: 100vh; */
-  /* height: 800px;
-
-  /* background-image: url('assets/images/banner.png');
-  background-repeat: no-repeat;
-  background-size: cover; */
   /* background-position: right; */
   /* width: 100vw; */
   /* height: 100vh; */
-  /* height: 800px; */
+  height: 886px;
+}
+
+.banner-text {
+  color: #6d6d6d;
+  font-weight: 500;
+}
+
+.banner-h {
+  color: #333333;
+  font-weight: 600;
+  font-size: 46px;
 }
 
 .btn-sec-1 {
@@ -31,10 +37,12 @@
 .sec-1-text {
   font-size: 12px;
   font-weight: 600;
+  color: #ffffff;
 }
 
 .sec-1-num {
   font-size: 16px;
+  color: #ffffff;
   font-weight: 600;
 }
 

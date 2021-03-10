@@ -24,9 +24,9 @@ function SectionOne() {
     const toggle = () => setIsOpen(!isOpen);
   
 return (
-    <Container fluid className="p-0">
+    <Container fluid className="p-0 banner-sec">
         <Container>
-            <Row className="m-0 mt-3" >
+            <Row className="m-0 pt-3">
                 <Col md="6" className="brand-logo"><img src={logo}/></Col>
                 <Col md="6">
                     <Row>
@@ -42,12 +42,12 @@ return (
                 </Col>
             </Row>
         </Container>
-        <Container fluid>
+        <Container>
             <Row>
-                <Col md="6">
+                <Col md="6 banner-text">
                     <div>
-                        <h2>LOOKING TO BUILD</h2>
-                        <h1>MOBILE APPS</h1>
+                        <h2 style={{fontSize: 27}}>LOOKING TO BUILD</h2>
+                        <h1 className="banner-h">MOBILE APPS</h1>
                         <p>We eat, sleep and breathe mobile. It's who we are, <br/> create the kind of apps that people love & are used <br/> over & over again. We eat, sleep and breathe mobile. <br/> It's who we are</p>
                     </div>
                     </Col>
