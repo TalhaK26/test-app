@@ -1,3 +1,14 @@
+/* section 1 */
+.banner-sec {
+  background-image: url('assets/images/banner.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  /* height: 100vh; */
+  height: 800px;
+}
+/* section 1 */
+
 .s-h {
   font-weight: 700;
   color: #333333;
@@ -18,3 +29,15 @@
 .lh-1 {
   line-height: 1;
 }
+
+/* section-2 */
+.sec-3 {
+  height: 450px;
+}
+
+@media screen and (max-width: 800px) {
+  .sec-3 {
+    height: auto;
+  }
+}
+/* section-2 */

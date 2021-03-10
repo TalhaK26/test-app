@@ -7,8 +7,8 @@ import game from '../assets/images/game.png';
 
 function SectionTwo() {
   return (
-    <Container>
-      <Row className="text-center">
+    <Container fluid className="p-0">
+      <Row className="text-center m-0">
         <Col>
           <h2 className="s-h">What We Do</h2>
           <div className="s-d">
@@ -16,20 +16,20 @@ function SectionTwo() {
           </div>
         </Col>
       </Row>
-      <Row className="text-center mt-4">
-        <Col md="3">
+      <Row className="text-center mt-4 justify-content-center m-0">
+        <Col md="2">
           <img src={ios} />
           <p className="s-t mt-3">IOS <br/> Development</p>
         </Col>
-        <Col md="3">
+        <Col md="2">
           <img src={android} />
           <p className="s-t mt-3">Android <br/> Development</p>
         </Col>
-        <Col md="3">
+        <Col md="2">
           <img src={game} />
           <p className="s-t mt-3">Game <br/> Development</p>
         </Col>
-        <Col md="3">
+        <Col md="2">
           <img src={web} />
           <p className="s-t mt-3">Web <br/> Development</p>
         </Col>

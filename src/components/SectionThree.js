@@ -8,19 +8,59 @@ import five from '../assets/images/5.png';
 
 function SectionThree() {
   return (
-    <Container className="mt-5 mb-5" style={{height: 700}}>
-      <Row className="text-center">
+    <Container fluid className="mt-5 mb-5 p-0 pt-5 pb-5" style={{height: 'auto', backgroundColor: '#f5f5f5'}}>
+      <Row className="text-center m-0">
         <Col>
           <h2 className="s-h">How We Build The Apps?</h2>
         </Col>
       </Row>
-      <Row className="text-center mt-4">
-        <Col md="3">
-          <img src={one} />
+      <Row className="text-center mt-4 m-0 justify-content-center sec-3">
+        <Col md="2">
+          <Row className="align-items-end sec-3">
+            <Col md="12">
+              <img src={one} />
+              <div className="lh-1">
+                <p className="s-t mt-3 "><b>Requirement Gathering <br/> / Analysis</b></p>
+                <small>Rough Draft. Wireframes, <br/> Scope Document</small>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+        <Col md="2">
+          <img src={two} />
           <div className="lh-1">
-            <p className="s-t mt-3 "><b>Requirement Gathering <br/> / Analysis</b></p>
-            <small>Requirement Gathering <br/> / Analysis</small>
+            <p className="s-t mt-3"><b>Design</b></p>
+            <small>UI Design, <br/> Functional Design</small>
           </div>
+        </Col>
+        <Col md="2">
+          <Row className="align-items-end sec-3">
+            <Col md="12">
+              <img src={three} />
+              <div className="lh-1">
+                <p className="s-t mt-3 "><b>Development</b></p>
+                <small>Agile Development, <br/> Functional Development <br/> Unit Testing</small>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+        <Col md="2">
+          <img src={four} />
+          <div className="lh-1">
+            <p className="s-t mt-3 "><b>Testing</b></p>
+            <small>UI Testing, UX Testing, <br/> UAT Testing</small>
+          </div>
+        </Col>
+        <Col md="2">
+          <Row className="align-items-end sec-3">
+            <Col md="12">
+              <img src={five} />
+              <div className="lh-1">
+                <p className="s-t mt-3 "><b>Launch / Maintanence</b></p>
+                <small>Launch, Load Testing <br/> Maintanence</small>
+              </div>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
