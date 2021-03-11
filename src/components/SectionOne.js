@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Container, Row, Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 import logo from '../assets/images/appshah_logo.png';
@@ -18,7 +17,6 @@ function SectionOne() {
                         <div className="req-btn">
                             <Button className="btn-sec-1 d-md-inline">Request Estimate</Button>
                         </div>
-
                     </Col>   
                 </Row>
             </Col>
@@ -33,28 +31,28 @@ function SectionOne() {
                                     <h1 className="banner-h">MOBILE APPS</h1>
                                     <p>We eat, sleep and breathe mobile. It's who we are, <br/> create the kind of apps that people love & are used <br/> over & over again. We eat, sleep and breathe mobile. <br/> It's who we are</p>
                                 </Col>
-                                </Row>
-                            </Col>
+                            </Row>
+                        </Col>
                         <Col md="6">
                             <Row className="m-0 h-75 align-items-center">
                                 <Col md="12">
-                                <Form className="req-form">
-                                    <FormGroup>
-                                        <Label className="form-txt">Discuss with us to start <br/> molding your idea.</Label>
-                                    </FormGroup>
-                                    <FormGroup>
-                                        <Input type="text" name="text" placeholder="Full Name" />
-                                    </FormGroup>
-                                    <FormGroup>
-                                        <Input type="email" name="email" placeholder="Email" />
-                                    </FormGroup>
-                                    <FormGroup>
-                                        <Input type="number" name="phone" placeholder="Phone Number" />
-                                    </FormGroup>
-                                    <FormGroup className="text-center">
-                                        <Button className="btn-form mt-3">Send Request</Button>
-                                    </FormGroup>
-                                </Form>
+                                    <Form className="req-form">
+                                        <FormGroup>
+                                            <Label className="form-txt">Discuss with us to start <br/> molding your idea.</Label>
+                                        </FormGroup>
+                                        <FormGroup>
+                                            <Input type="text" name="text" placeholder="Full Name" />
+                                        </FormGroup>
+                                        <FormGroup>
+                                            <Input type="email" name="email" placeholder="Email" />
+                                        </FormGroup>
+                                        <FormGroup>
+                                            <Input type="number" name="phone" placeholder="Phone Number" />
+                                        </FormGroup>
+                                        <FormGroup className="text-center">
+                                            <Button className="btn-form mt-3">Send Request</Button>
+                                        </FormGroup>
+                                    </Form>
                                 </Col>
                             </Row>
                         </Col>

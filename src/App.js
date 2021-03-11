@@ -1,5 +1,5 @@
 import './App.css';
-import { Container, Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
 import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";

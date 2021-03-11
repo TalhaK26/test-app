@@ -255,15 +255,6 @@ input {
     height: 630px !important;
   }
 }
-/* @media screen and (min-width: 111px) and (max-width: 1339px) {
-  .banner-sec {
-    background-image: url('assets/images/banner.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 780px !important;
-    height: 790px !important;
-  }
-} */
 
 @media screen and (min-width: 1340px) and (max-width: 1540px) {
   .connector-img {
