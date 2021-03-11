@@ -8,6 +8,8 @@
 .banner-text {
   color: #6d6d6d;
   font-weight: 500;
+  position: relative;
+  right: 50px;
 }
 
 .form-txt {
@@ -140,8 +142,8 @@ input {
     margin-left: 0;
   }
   .req-btn {
-    margin-left: 0; 
-    float: right;
+    margin: 0;
+    float: none;
   }
   .form-txt {
     font-size: 18px;
@@ -195,7 +197,7 @@ input {
   }
   .connector {
     position: absolute;
-    left: 15%;
+    left: 20%;
     top: 20%;
     z-index: 0;
   }
@@ -205,7 +207,7 @@ input {
   }
   .connector-1 {
     position: absolute;
-    left: 32.60%;
+    left: 37.6%;
     top: 20%;
     z-index: 0;
   }
@@ -215,7 +217,7 @@ input {
   }
   .connector-2 {
     position: absolute;
-    left: 48%;
+    left: 53%;
     top: 20%;
     z-index: 0;
   }
@@ -225,7 +227,7 @@ input {
   }
   .connector-3 {
     position: absolute;
-    left: 48%;
+    left: 71%;
     top: 20%;
     z-index: 0;
   }
@@ -342,7 +344,7 @@ input {
     z-index: 0;
   }
   .connector-img-3 {
-    width: 250px;
+    width: 280px;
     height: 160px;
   }
   .connector-3 {
@@ -356,8 +358,8 @@ input {
     background-image: url('assets/images/banner.png');
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 1268px;
-    height: 1278px;
+    background-size: 1148px;
+    height: 1148px;
   }
 }
 

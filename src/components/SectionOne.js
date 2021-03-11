@@ -22,26 +22,13 @@ function SectionOne() {
                     </Col>   
                 </Row>
             </Col>
-                {/* <Col md="6" className="brand-logo"><img src={logo}/></Col>
-                <Col md="6">
-                    <Row>
-                    <Col md="6" sm="12" className="text-right h-text">
-                        <p className="sec-1-text"> Got an idea?
-                            <br/><span className="sec-1-num">+1 917-732-1695</span>
-                        </p>
-                    </Col>   
-                    <Col md="6" sm="12" className="h-btn">
-                        <Button className="btn-sec-1">Request Estimate</Button>
-                    </Col>   
-                    </Row>
-                </Col> */}
-            </Row>
+           </Row>
             <Row className="m-0 h-100">
                 <div style={{width:'100%', margin: '0px 0px 0px 0px'}}>
                     <Row className="m-0 h-100">
                         <Col md="6 banner-text">
                             <Row className="m-0 h-75 align-items-center justify-content-center">
-                                <Col md="12 pl-md-5">
+                                <Col md="8" className="banner-text">
                                     <h2 style={{fontSize: 27}}>LOOKING TO BUILD</h2>
                                     <h1 className="banner-h">MOBILE APPS</h1>
                                     <p>We eat, sleep and breathe mobile. It's who we are, <br/> create the kind of apps that people love & are used <br/> over & over again. We eat, sleep and breathe mobile. <br/> It's who we are</p>
