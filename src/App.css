@@ -1,5 +1,5 @@
-.banner-sec { 
-  background-image: url('assets/images/banner.png');
+.banner-sec {
+  background-image: url("assets/images/banner.png");
   background-repeat: no-repeat;
   background-position: right;
   height: 886px;
@@ -19,7 +19,7 @@
 }
 
 .req-btn {
-  margin-left: 20px; 
+  margin-left: 20px;
   float: right;
 }
 
@@ -74,7 +74,6 @@ input {
   color: #ffffff;
   font-weight: 600;
 }
-
 
 .s-h {
   font-weight: 700;
@@ -158,6 +157,7 @@ input {
   .banner-text {
     text-align: center;
     margin: 30px 0px 30px 0px;
+    right: 0;
   }
   .btn-sec-1 {
     border-radius: 20px;
@@ -167,10 +167,15 @@ input {
     font-size: 14px;
     margin: 20px 0px 10px 0px;
   }
-  .connector, .connector-1, .connector-2, .connector-3 {
+  .connector,
+  .connector-1,
+  .connector-2,
+  .connector-3 {
     display: none;
   }
-  .sec-3, .sec-3-dev, .sec-3-laun {
+  .sec-3,
+  .sec-3-dev,
+  .sec-3-laun {
     height: auto;
   }
   .sec-3-con {
@@ -235,7 +240,7 @@ input {
 
 @media screen and (min-width: 801px) and (max-width: 980px) {
   .banner-sec {
-    background-image: url('assets/images/banner.png');
+    background-image: url("assets/images/banner.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 570px !important;
@@ -244,7 +249,7 @@ input {
 }
 @media screen and (min-width: 981px) and (max-width: 1100px) {
   .banner-sec {
-    background-image: url('assets/images/banner.png');
+    background-image: url("assets/images/banner.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 620px !important;
@@ -278,7 +283,7 @@ input {
   }
   .connector-1 {
     position: absolute;
-    left: 37.70%;
+    left: 37.7%;
     top: 20%;
     z-index: 0;
   }
@@ -304,7 +309,7 @@ input {
   }
 
   .banner-sec {
-    background-image: url('assets/images/banner.png');
+    background-image: url("assets/images/banner.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 886px;
@@ -355,7 +360,7 @@ input {
   }
 
   .banner-sec {
-    background-image: url('assets/images/banner.png');
+    background-image: url("assets/images/banner.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 1148px;
@@ -407,7 +412,7 @@ input {
   }
 
   .banner-sec {
-    background-image: url('assets/images/banner.png');
+    background-image: url("assets/images/banner.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 1268px;

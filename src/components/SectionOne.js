@@ -52,7 +52,7 @@ function SectionOne() {
                                         <Input type="number" name="phone" placeholder="Phone Number" />
                                     </FormGroup>
                                     <FormGroup className="text-center">
-                                        <Button className="btn-form">Send Request</Button>
+                                        <Button className="btn-form mt-3">Send Request</Button>
                                     </FormGroup>
                                 </Form>
                                 </Col>
