@@ -78,27 +78,35 @@
 .sec-3 {
   height: 450px;
 }
+.sec-3-dev {
+  height: 414px;
+}
+.sec-3-laun {
+  height: 426px;
+}
 
-.connectors {
+.connector {
   position: absolute;
-  /* width: 122px; */
-  /* height: 108px; */
   left: 20%;
-  /* top: 1440px; */
   top: 22%;
   right: 80%;
 }
+.connector-img {
+  width: 122px;
+  height: 108px;
+}
 
 @media screen and (max-width: 800px) {
-  .sec-3 {
+  .connector, .connector-1 {
+    display: none;
+  }
+  .sec-3, .sec-3-dev, .sec-3-laun {
     height: auto;
+  
   }
   .sec-3-con {
     height: auto;
     position: relative;
-  }
-  .connectors {
-    display: none;
   }
   .brand-logo {
     text-align: center !important;
@@ -110,6 +118,99 @@
   .h-btn {
     text-align: center !important;
     margin: 10px 0px 50px 0px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1339px) {
+  .connector-img {
+    width: 122px;
+    height: 108px;
+  }
+  .connector {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    z-index: 0;
+  }
+  .connector-img-1 {
+    width: 122px;
+    height: 108px;
+  }
+  .connector-1 {
+    position: absolute;
+    left: 53%;
+    top: 20%;
+    z-index: 0;
+  }
+}
+
+@media screen and (min-width: 1340px) and (max-width: 1540px) {
+  .connector-img {
+    width: 122px;
+    height: 108px;
+  }
+  .connector {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    z-index: 0;
+  }
+  .connector-img-1 {
+    width: 122px;
+    height: 108px;
+  }
+  .connector-1 {
+    position: absolute;
+    left: 53%;
+    top: 20%;
+    z-index: 0;
+  }
+}
+
+@media screen and (min-width: 1541px) and (max-width: 1940px) {
+  .connector-img {
+    width: 250px;
+    height: 160px;
+  }
+  .connector {
+    position: absolute;
+    left: 18%;
+    top: 17%;
+    z-index: 0;
+  }
+  .connector-img-1 {
+    width: 250px;
+    height: 160px;
+  }
+  .connector-1 {
+    position: absolute;
+    left: 52%;
+    top: 17%;
+    z-index: 0;
+  }
+}
+
+@media screen and (min-width: 1941px) and (max-width: 2560px) {
+  .connector-img {
+    width: 360px;
+    height: 170px;
+  }
+  .connector {
+    position: absolute;
+    left: 18%;
+    top: 17%;
+    z-index: 0;
+  }
+
+  .connector-img-1 {
+    width: 360px;
+    height: 170px;
+  }
+  .connector-1 {
+    position: absolute;
+    left: 51%;
+    top: 17%;
+    z-index: 0;
   }
 }
 /* section-2 */

@@ -28,8 +28,8 @@ function SectionThree() {
             </Col>
           </Row>
         </Col>
-        <div className="connectors">
-          <img src={yellow}/>
+        <div className="connector">
+          <img src={yellow} className="connector-img" />
         </div>
         <Col md="2">
           <img src={two} />
@@ -39,7 +39,7 @@ function SectionThree() {
           </div>
         </Col>
         <Col md="2">
-          <Row className="align-items-end sec-3">
+          <Row className="align-items-end sec-3-dev">
             <Col md="12">
               <img src={three} />
               <div className="lh-1">
@@ -49,6 +49,9 @@ function SectionThree() {
             </Col>
           </Row>
         </Col>
+        <div className="connector-1">
+          <img src={yellow} className="connector-img-1" />
+        </div>
         <Col md="2">
           <img src={four} />
           <div className="lh-1">
@@ -57,7 +60,7 @@ function SectionThree() {
           </div>
         </Col>
         <Col md="2">
-          <Row className="align-items-end sec-3">
+          <Row className="align-items-end sec-3-laun">
             <Col md="12">
               <img src={five} />
               <div className="lh-1">
