@@ -15,7 +15,7 @@ function SectionOne() {
                             <p className="mb-0 ">Got an idea?</p>
                             <p className="sec-1-num mb-0 d-md-inline">+1 917-732-1695</p>
                         </div>
-                        <div className="d-md-inline">
+                        <div className="req-btn">
                             <Button className="btn-sec-1 d-md-inline">Request Estimate</Button>
                         </div>
 
