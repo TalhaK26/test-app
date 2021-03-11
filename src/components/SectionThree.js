@@ -32,12 +32,15 @@ function SectionThree() {
           <img src={yellow} className="connector-img" />
         </div>
         <Col md="2">
-          <img src={two} />
+          <img src={two} style={{zIndex: 1, position: 'relative'}} />
           <div className="lh-1">
             <p className="s-t mt-3"><b>Design</b></p>
             <small>UI Design, <br/> Functional Design</small>
           </div>
         </Col>
+        <div className="connector-1">
+          <img src={black} className="connector-img-1" />
+        </div>
         <Col md="2">
           <Row className="align-items-end sec-3-dev">
             <Col md="12">
@@ -49,16 +52,19 @@ function SectionThree() {
             </Col>
           </Row>
         </Col>
-        <div className="connector-1">
-          <img src={yellow} className="connector-img-1" />
+        <div className="connector-2">
+          <img src={yellow} className="connector-img-2" />
         </div>
         <Col md="2">
-          <img src={four} />
+          <img src={four} style={{zIndex: 1, position: 'relative'}} />
           <div className="lh-1">
             <p className="s-t mt-3 "><b>Testing</b></p>
             <small>UI Testing, UX Testing, <br/> UAT Testing</small>
           </div>
         </Col>
+        <div className="connector-3">
+          <img src={black} className="connector-img-3" />
+        </div>
         <Col md="2">
           <Row className="align-items-end sec-3-laun">
             <Col md="12">
