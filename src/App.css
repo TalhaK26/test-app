@@ -43,7 +43,7 @@ input {
   padding: 50px 40px 30px 40px;
   border-radius: 30px;
   width: 60%;
-  margin-left: 30%;
+  margin: 50px 0px 0px 30%;
 }
 
 .banner-h {
@@ -137,8 +137,7 @@ input {
     padding: 50px 40px 30px 40px;
     border-radius: 30px;
     width: 100%;
-    margin-bottom: 50px;
-    margin-left: 0;
+    margin: 0px 0px 50px 0px;
   }
   .req-btn {
     margin: 0;
@@ -312,8 +311,8 @@ input {
     background-image: url("assets/images/banner.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 886px;
-    height: 900px;
+    background-size: 920px;
+    height: 930px;
   }
 }
 
@@ -363,8 +362,8 @@ input {
     background-image: url("assets/images/banner.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 1148px;
-    height: 1148px;
+    background-size: 1248px;
+    height: 1258px;
   }
 }
 
@@ -415,7 +414,7 @@ input {
     background-image: url("assets/images/banner.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 1268px;
-    height: 1268px;
+    background-size: 1600px;
+    height: 1610px;
   }
 }

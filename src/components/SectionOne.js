@@ -6,7 +6,7 @@ import logo from '../assets/images/appshah_logo.png';
 function SectionOne() {
     return (
         <Container fluid className="p-0 banner-sec">
-            <Row className="m-0 pt-3 w-75 mx-auto">
+            <Row className="m-0 pt-4 w-75 mx-auto">
             <Col md="6" className="brand-logo"><img src={logo}/></Col>
             <Col md="6">
                 <Row>
